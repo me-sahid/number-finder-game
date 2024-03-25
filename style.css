@@ -117,19 +117,3 @@ body{
     transform: translateX(100px) translateY(4px);
 }
 
-button{
-    padding: 8px 10px;
-    border: transparent;
-    border: 2px solid rgb(188, 189, 189);
-    border-radius: 35px;
-    background-color: #fff;
-    transition: linear 0.3s;
-    
-}
-
-button:hover{
-    color: #fff;
-    background-color: rgb(0, 0, 0);
-    border-color: black;
-    cursor: pointer;
-}
