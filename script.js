@@ -21,7 +21,7 @@ setTimer = () => {
         }
         else {
             clearInterval(time)
-            document.querySelector(".gameBox").innerHTML = `<h1>Game Over</h1> <button>Restart</button>`
+            document.querySelector(".gameBox").innerHTML = `<h1>Game Over</h1>`
         }
     }, 1000);
 }
