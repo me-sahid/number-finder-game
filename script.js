@@ -9,7 +9,7 @@ createBubble = () => {
     let newBubbles = document.querySelector(".gameBox").innerHTML = bubbles;
 }
 
-let time = 3;
+let time = 60;
 document.querySelector("#timerFunc").textContent = time;
 
 setTimer = () => {
